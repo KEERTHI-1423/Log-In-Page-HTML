@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Log in Page</title>
+    <link
+      rel="icon"
+      href="https://cdn-icons-png.flaticon.com/128/3442/3442357.png"
+    />
+    <style>
+      form {
+        border: 1px solid black;
+        border-radius: 10px;
+        width: 200px;
+        padding: 10px;
+      }
+      body {
+        width: 200px;
+        margin: 150px auto;
+      }
+
+      div {
+        display: flex;
+        align-items: center;
+        justify-items: center;
+      }
+
+      button {
+        border-radius: 7px;
+        margin-top: 8px;
+        background-color: rgba(0, 0, 255, 0.781);
+        color: white;
+        padding: 5px;
+        width: 170px;
+      }
+
+      * {
+        font-family: Arial, Helvetica, sans-serif;
+      }
+    </style>
+  </head>
+  <body>
+    <div>
+      <form action="index03.html">
+        <h3 style="text-align: center">Sign In</h3>
+        <label for="name">User Name</label><br />
+        <input type="text" required placeholder="Enter the User Name" /><br />
+        <label for="email">Email</label><br />
+        <input type="email" required placeholder="Enter the Email id" /><br />
+        <label for="password">Password</label><br />
+        <input
+          type="password"
+          required
+          placeholder="Enter the Password"
+        /><br />
+        <button value="Submit" id="Submit">Submit</button>
+        <a href="index.html">sign up</a>
+      </form>
+    </div>
+  </body>
+</html>
